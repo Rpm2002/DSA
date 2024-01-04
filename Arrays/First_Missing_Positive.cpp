@@ -6,7 +6,9 @@ does not exist in the array. The array can have negative numbers as well.
 For example, the input [3, 4, -1, 1] should give output 2 because it is the smallest positive number 
 that is missing in the input array.
 
-******************************** Code *****************************
+*/
+
+// ******************************** Code *****************************
 
 #include <bits/stdc++.h> 
 int firstMissing(int arr[], int n)
@@ -43,4 +45,3 @@ int firstMissing(int arr[], int n)
     // https://youtu.be/LLdHZI-qC08?feature=shared  Youtube
 }
 
-*/
