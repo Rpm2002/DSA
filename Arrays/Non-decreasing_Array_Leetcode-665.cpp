@@ -30,13 +30,15 @@ public:
         {
             continue;
         }
-        else if(changed==true)
+        else if(changed==true) // matlab ham already value change kar chuke hai
         {
             return false;
         }
 
         // Now we want to decrease the left element
-        // matlab (i+1)>(i-1)
+        // matlab (i+1)>(i-1)  
+        // i i+1
+        [3 4 2]
 
         if(i==0 or (nums[i+1]>=nums[i-1])) // agar element 0 index pe hai to uske pehle k index ka 
         // check hi karne ka  kyuki koi value hi nhi hogi vaha pe
