@@ -34,3 +34,9 @@ string encode(string &message)
 }
 
 */
+
+/*
+
+The intuition behind solving the run-length encoding problem using the provided code is to iterate through the characters of the given string and count consecutive occurrences of each character. When a different character is encountered, append the current character and its count to the result string, and reset the count to 1. This process continues until the entire string is processed.
+
+*/
