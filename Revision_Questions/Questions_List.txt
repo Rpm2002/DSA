@@ -1,0 +1,8 @@
+                                        ARRAYS
+
+=> 3 Sum     
+=> Rotate Array by k
+=> Non-decreasing Array
+=> First Missing Positive
+=> Check if 2 arrays are equal or not
+=> Container with most water                                   
