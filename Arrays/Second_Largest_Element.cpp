@@ -4,15 +4,18 @@ present in the 'ARR'.
 
 Note:
 a) Duplicate elements may be present.
-
 b) If no such element is present return -1.
 
-1 <= T <= 100
-1 <= N <= 5000
--10 ^ 9 <= 'SIZE' <= 10 ^ 9 
+Sample Input 1:
+2
+6
+12 1 35 10 34 1
+5
+10 10 10 10 10
+Sample Output 1:
+34
+-1
 
-Where ‘T’ is the total number of test cases, ‘N’ denotes the number of elements in the array 
-and ‘SIZE’ denotes the range of the elements in the array.
 
 */
             // **************** Code ******************** 

@@ -1,8 +1,31 @@
                                         ARRAYS
 
+=> 2 Sum
 => 3 Sum     
 => Rotate Array by k
 => Non-decreasing Array
 => First Missing Positive
 => Check if 2 arrays are equal or not
-=> Container with most water                                   
+=> Container with most water   
+=> Convert Array into zig-zag pattern
+=> Equilibrium index
+=> Leaders in Array
+=> Make unique Array
+=> Missing number in array
+=> Product of Array Except self
+=> Rearrange array alternatively
+=> Reverse array in groups
+=> Sort 0's 1's and 2'
+=> Subarray with given Sum
+=> Swapping pairs make sum equal
+=> Trapping Rainwater  
+
+
+                                      2-D Arrays/Matrix
+
+=> Maximum number of 1's Row
+=> Rotate matrix by 90 Degree
+=> Set Matrix Zeros
+=> Spiral Matrix
+=> Sum of zeros                                      
+                              
