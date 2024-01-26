@@ -1,4 +1,4 @@
-                                        ARRAYS
+                                        Arrays
 
 => 2 Sum
 => 3 Sum     
@@ -27,5 +27,24 @@
 => Rotate matrix by 90 Degree
 => Set Matrix Zeros
 => Spiral Matrix
-=> Sum of zeros                                      
+=> Sum of zeros     
+
+
+                                      Strings
+
+=> Beautiful Strings
+=> Check if string is rotated by 2 places
+=> Encode the message
+=> Group Anagrams
+=> KMP Algorithm
+=> Longest consecutive sequence
+=> Minimum Parenthesis
+=> Product of array
+=> Remove Duplicates
+=> Top k frequent elements
+=> Two-sum II
+=> Valid Anagrams 
+=> Valid Palindrome
+=> Valid Sudoku
+
                               
