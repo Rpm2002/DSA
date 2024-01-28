@@ -47,4 +47,7 @@
 => Valid Palindrome
 => Valid Sudoku
 
-                              
+                                    Algorithms
+
+=> Kadane's Algorithm (Maximum Subarray sum)                                    
+=> Moore's Voting Algorithm
