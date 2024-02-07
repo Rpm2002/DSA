@@ -54,3 +54,6 @@ string multiplyStrings(string num1 , string num2 )
 }
 
 */
+
+// https://youtu.be/Z6fmPXYBi80?feature=shared
+// https://youtu.be/5NdhK3tZViQ?feature=shared
