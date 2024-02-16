@@ -31,7 +31,7 @@ Node *convertArr2LL(vector<int> &arr)
   {
     Node *temp = new Node(arr[i]); // Create a new node with data from the array
     mover->next = temp; // Link the current node to the newly created node
-    mover = mover->next; // Move the mover to the newly created node
+    mover = mover->next; // Move the mover to the newly created node // or mover=temp;
   }
 
   return head; // Return the head of the linked list
@@ -46,3 +46,8 @@ int main()
 
   return 0;
 }
+
+
+// Count the nodes of LL or length of LL
+
+// https://www.codingninjas.com/studio/problems/count-nodes-of-linked-list_5884?utm_source=youtube&utm_medium=affiliate&utm_campaign=Codestudio_Linkedlistseries
