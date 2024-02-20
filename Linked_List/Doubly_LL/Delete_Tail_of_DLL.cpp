@@ -52,20 +52,25 @@ Node *convertArr2DLL(vector<int>&arr)
 }
 
 
-Node *DeleteHeadofDLL(Node *head)
+Node *DeleteTailofDLL(Node *head)
 {
   if(head==NULL or head->next==NULL)
   {
     return NULL;
   }
 
-  Node *prev=head;
-  head=head->next;
+  Node *tail=head;
 
-  head->back=nullptr;
-  prev->next=nullptr;
-  delete prev;
+  while(tail->next!=NULL)
+  {
+    tail=tail->next;
+  }
 
+  Node *newtail=tail->back;
+  newtail->next=nullptr;
+  tail->back=nullptr;
+  delete tail;
+  
   return head;
 }
 
@@ -73,7 +78,7 @@ int main()
 {
   vector<int> arr = {45, 23, 2, 3};
   Node *head = convertArr2DLL(arr); // Convert the array to a linked list
-  head=DeleteHeadofDLL(head);
+  head=DeleteTailofDLL(head);
   print(head);
 
   return 0;
